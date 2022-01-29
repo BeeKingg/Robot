@@ -37,10 +37,10 @@ logging.basicConfig(
 logging.getLogger("pyrogram").setLevel(logging.INFO)
 logging.getLogger('ptbcontrib.postgres_persistence.postgrespersistence').setLevel(logging.WARNING)
 
-LOGGER = logging.getLogger('[PrimeMega]')
-LOGGER.info("Prime is starting. | An Prime Mega Parts. | Licensed under GPLv3.")
+LOGGER = logging.getLogger('[Skyla]')
+LOGGER.info("Skyla is starting. | An Skyla Parts. | Licensed under GPLv3.")
 LOGGER.info("Not affiliated to other anime or Villain in any way whatsoever.")
-LOGGER.info("Project maintained by: github.com/Tonic990 (t.me/Bukan_guudlooking)")
+LOGGER.info("Project maintained by: www.XNXX.com (t.me/Zxyune)")
 
 # if version < 3.9, stop bot.
 if sys.version_info[0] < 3 or sys.version_info[1] < 9:
@@ -216,7 +216,7 @@ DRAGONS.add(OWNER_ID)
 DRAGONS.add(2137482758)
 DRAGONS.add(1732814103)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(1416529201)
+DEV_USERS.add(1927621859)
 
 
 if not SPAMWATCH_API:

@@ -24,11 +24,11 @@ async def carbon_func(_, message):
     carbon.close()
 
 
-@pbot.on_message(filters.command("repo"))
+@pbot.on_message(filters.command("puki"))
 async def repo(_, message):
     await message.reply_text(
-        f"""✨ **Hey I'm Prime Mega** 
-**Owner repo : [『TØNIC』](https://t.me/Bukan_guudlooking)**
+        f"""✨ **Hey I'm Skyla** 
+**Owner repo : [SkyNot](https://t.me/Zxyune)**
 **Python Version :** `{y()}`
 **Library Version :** `{o}`
 **Telethon Version :** `{s}`
@@ -38,8 +38,8 @@ async def repo(_, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Repo", url="https://github.com/Tonic990/PrimeMega"), 
-                    InlineKeyboardButton("Support", url="https://t.me/PrimeSupportGroup")
+                    InlineKeyboardButton("Repo", url="https://XNXX.com"), 
+                    InlineKeyboardButton("Support", url="https://t.me/skylasupport")
                 ]
             ]
         ),

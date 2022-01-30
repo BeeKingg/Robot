@@ -9,7 +9,7 @@ from PrimeMega.events import register
 from PrimeMega import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/efc27dec817626cc95016.jpg"
+PHOTO = "https://telegra.ph/file/5af32594e504236410892.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
@@ -20,5 +20,5 @@ async def awake(event):
   PRIME += f"⚪ **Telethon Version :** `{tlhver}` \n\n"
   PRIME += f"⚪ **Pyrogram Version :** `{pyrover}` \n\n"
   PRIME += "**Thanks For Adding Me Here ❤️**"
-  BUTTON = [[Button.url("ʜᴇʟᴘ​", "https://t.me/PrimeMegaBot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/skylasupport")]]
+  BUTTON = [[Button.url("ʜᴇʟᴘ​", "https://t.me/SkylaMusicBot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/skylasupport")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=PRIME,  buttons=BUTTON)

@@ -81,10 +81,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- ───「[Skyla](https://t.me/PrimeMegaBot)」───
+ ───「[Skyla](https://t.me/SkylaMusicBot)」───
 *Hello {} !*
 ────────────────────────
-PrimeMega a powerful group management bot built to help you manage your group!
+Skyla a powerful group management bot built to help you manage your group!
 ────────────────────
 Hit the /help or tap on button to se available command on me.
 """
@@ -112,7 +112,7 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-PRIME_IMG = "https://telegra.ph/file/b9fa4e1360d0a872a3cd5.jpg"
+PRIME_IMG = "https://telegra.ph/file/5af32594e504236410892.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @Zxyune \
@@ -437,7 +437,7 @@ def prime_about_callback(update, context):
         )
     elif query.data == "prime_support":
         query.message.edit_text(
-            text="*๏ PrimeMega support chats*"
+            text="*๏ Skyla support chats*"
             "\nJoin My Support Group/Channel for see or report a problem on PrimeMega.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -457,8 +457,8 @@ def prime_about_callback(update, context):
 
     elif query.data == "prime_credit":
         query.message.edit_text(
-            text=f"<b>๏ Credis for primeMega</b>\n"
-            f"\nHere Developers Making The PrimeMegaRobot",
+            text=f"<b>๏ Credis for Skyla</b>\n"
+            f"\nHere Developers Making The SkylaMusicBot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
